@@ -43,10 +43,10 @@
 
   // メンバーデータ（写真は /static/members に配置）
   const members = [
-    { name: '山口暁帆', initials: 'AY', specialty: 'Hello AI 運営責任者', photo: `${base}/members/akiho.avif` },
-    { name: '世良将之', initials: 'MS', specialty: 'Hello AI 技術責任者', photo: `${base}/members/sera2.avif` },
-    { name: '小川椋徹', initials: 'RO', specialty: '2WINS 代表取締役 Co-CEO', photo: `${base}/members/ogawa.avif` },
-    { name: '鈴木友李江', initials: 'YS', specialty: '2WINS 取締役 経営管理本部 Senior Director', photo: `${base}/members/yurie.avif` }
+    { name: '渋谷竜響', initials: 'TS', specialty: 'Hello AI 代表', photo: `${base}/members/shibuya.avif` },
+    { name: '山口莉沙', initials: 'RY', specialty: 'Hello AI 副代表', photo: `${base}/members/risa.avif` },
+    { name: 'サイード紗晴', initials: 'SS', specialty: 'FAST National University', photo: `${base}/members/saharu.avif` },
+    { name: '杉山佳', initials: 'KS', specialty: '慶應義塾大学 3年', photo: `${base}/members/kei.avif` }
   ];
 </script>
 
@@ -90,7 +90,7 @@
         <h1>東京大学発のAIコミュニティ「Hello AI」へようこそ。</h1>
         <p class="hero__lead">
           私たちは、AIをこれから学びたい大学生を対象に、基礎から実践までステップアップできる環境を提供しています。<br />
-          「本郷クオリティ」と呼ばれる高水準の学びを、全国どこからでも。仲間と一緒に、AIの基礎を身につけ、社会で活躍できる力を育てます。
+          「本郷クオリティ」と呼ばれる高水準の学びを、全国どこからでも。仲間と一緒に、AIの基礎と応用を身につけ、社会で活躍できる技術力を育てます。
         </p>
         <div class="cta">
           <a class="btn btn--primary" href="#contact" aria-label="入会の問い合わせ">ご参加はこちらから</a>
@@ -108,7 +108,7 @@
           <p class="badge"><span class="dot" aria-hidden="true"></span> HELLO AIとは</p>
           <h2 class="section__title">学びと経験をつなぐ"橋渡し"</h2>
           <p class="section__desc">
-            Hello AIは、東京大学発AI企業「2WINS」が運営する、大学生向けのAI学習・実践サークルです。AI初心者でも安心して学べる教材と、少しずつ実務に挑戦できる機会を用意しています。
+            Hello AIは、東京大学発のAIスタートアップ「2WINS」が運営する、大学生向けのAI学習・実践コミュニティです。AI初心者でも安心して学べる教材と、少しずつ実務に挑戦できる機会を提供しています。
           </p>
         </div>
       </div>
@@ -116,15 +116,15 @@
       <div class="cards">
         <article class="card">
           <h3>運営</h3>
-          <p>東京大学発AI企業「2WINS」が運営。信頼できる環境で学びを進められます。</p>
+          <p>東京大学発のAIスタートアップ「2WINS」が運営。「松尾研発AIスタートアップ」の認定も受けており、"技術力"に特化したスタートアップである。信頼できる環境で学びを進められます。</p>
         </article>
         <article class="card">
           <h3>学べる教材</h3>
-          <p>初心者に寄り添った教材で、安心して基礎から取り組めます。</p>
+          <p>初学者に寄り添った教材で、安心して基礎から取り組めます。2WINSのエンジニアが作成した、各技術領域の"ロードマップ教材"では、レベル0から即戦力エンジニアになるまでの手順を説明しています。</p>
         </article>
         <article class="card">
           <h3>実務への橋渡し</h3>
-          <p>学びと経験を重ね、地域や企業で活躍できる人材へ成長していくことを支援します。</p>
+          <p>学びと経験を重ね、企業で活躍できる人材へ成長していくことを支援します。コミュニティ内では実践編である"コンペ"や"クエスト"を開催しており、評価されればそのままエンジニアとしてプロジェクトに参加できます</p>
         </article>
       </div>
     </div>
@@ -138,7 +138,7 @@
           <p class="badge"><span class="dot" aria-hidden="true"></span> メンバー</p>
           <h2 class="section__title">全国の大学生が中心</h2>
           <p class="section__desc">
-            多くがAIやプログラミングを学び始めたばかりの初学者。仲間と学び、先輩やメンターのサポートを受けながら、課題解決や開発に挑戦します。できることを少しずつ増やし、将来の選択肢を広げます。
+            多くがAIやプログラミングを学び始めたばかりの初学者。仲間と学び、2WINSエンジニアのサポートを受けながら、課題解決や開発に挑戦します。できることを少しずつ増やし、将来の選択肢を広げます。
           </p>
         </div>
       </div>
@@ -168,7 +168,7 @@
           <p class="badge"><span class="dot" aria-hidden="true"></span> 教育</p>
           <h2 class="section__title">初学者のための教育プログラム</h2>
           <p class="section__desc">
-            Pythonの基礎からデータ分析、機械学習の入門、そして簡単なアプリ開発まで、段階的にステップアップ。学びながら小さな実務経験も積める「Learn to Earn」を導入しています。
+            Pythonの基礎からデータ分析、機械学習の入門、そして簡単なアプリ開発まで、段階的にステップアップ。AIに関する技術を体系的に学ぶことができます。
           </p>
         </div>
       </div>
@@ -509,8 +509,8 @@
     gap: 10px;
   }
   .avatar {
-    width: 120px;
-    height: 120px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
     overflow: hidden;
     position: relative;
